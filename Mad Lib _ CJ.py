@@ -1,3 +1,7 @@
+import time
+
+
+
 ### MAD LIBS ###
 #Souce: https://usercontent1.hubstatic.com/7301022_f520.jpg
 
@@ -41,5 +45,7 @@ pbodypart1 = input()
 ### Tell the MadLib ###
 print("It was a " + adj1 + ", cold November day. I woke up to the " + adj2 +
       "smell of " + bird1 + "roasting in the " + room1 + "downstairs. " + "I " + ptverb1 +
-      "down the stairs to see if I could help " + verb1 + "the dinner. My mom said, see if " + relativesname1 + "needs a fresh " + noun1 + "So I carried a tray of glasses full of " + liquid1 + "into the " +)
+      "down the stairs to see if I could help " + verb1 + "the dinner. My mom said, see if " + relativesname1 + "needs a fresh " + noun1 + "So I carried a tray of glasses full of " + liquid1)
     
+
+time.sleep(100)
